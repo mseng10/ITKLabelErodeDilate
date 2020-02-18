@@ -72,7 +72,7 @@ int itkLabelSetErodeTest(int argc, char *argv[])
   int dim1;
 
   itk::MultiThreaderBase::SetGlobalMaximumNumberOfThreads(1);
-  itk::ImageIOBase::IOComponentType ComponentType;
+  itk::IOComponentEnum ComponentType;
 
   if ( argc != 4 )
     {
